@@ -4,7 +4,7 @@ REST API for **FixMate**, a smart device & home appliance repair service platfor
 
 - **Live API:** https://YOUR-SERVER.vercel.app
 - **Live site:** https://YOUR-CLIENT.vercel.app
-- **Client repository:** https://github.com/YOUR-USERNAME/fixmate-client
+- **Client repository:** https://github.com/MSKhanDA/fixmate-client
 
 ## Test accounts
 
