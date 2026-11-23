@@ -2,8 +2,8 @@
 
 REST API for **FixMate**, a smart device & home appliance repair service platform. Built with Express 5, MongoDB and Stripe. Authentication lives in the Next.js client (BetterAuth); this server verifies the short-lived JWT the client issues and enforces every role, ownership and job-status rule.
 
-- **Live API:** https://YOUR-SERVER.vercel.app
-- **Live site:** https://YOUR-CLIENT.vercel.app
+- **Live API:** https://fixmate-server-dusky.vercel.app
+- **Live site:** https://fixmate-client-rho-coral.vercel.app
 - **Client repository:** https://github.com/MSKhanDA/fixmate-client
 
 ## Test accounts
@@ -82,4 +82,4 @@ npm run seed           # needs the client running at SEED_AUTH_URL (users are cr
 ## Deploying (Vercel)
 
 1. Import the repo in Vercel (it uses `vercel.json`) and add the variables above, with `CLIENT_URL` set to the production client URL.
-2. In the Stripe Dashboard (test mode) add a webhook endpoint `https://YOUR-SERVER.vercel.app/api/payments/webhook` for `checkout.session.completed`, then put its signing secret in `STRIPE_WEBHOOK_SECRET` and redeploy.
+2. In the Stripe Dashboard (test mode) add a webhook endpoint `https://fixmate-server-dusky.vercel.app/api/payments/webhook` for `checkout.session.completed`, then put its signing secret in `STRIPE_WEBHOOK_SECRET` and redeploy.
